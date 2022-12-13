@@ -1,0 +1,5 @@
+For designing a datastore to save monitoring data of a service the performance of the API should be good. As the users roughly making 1 million requests per day the RPM (Request Per minute) i.e all the requests and the errors (Errors per minute) should be tracked and stored.Usage of the CPU is one of the important component of API responsiveness.
+The Master and Slave system in the API performs better tasks and there are very large of number of slaves under one Master.
+Each slave is having  yottabyte of memory. The slaves are responsible for requests and process of the data management storage.
+Datastore is an on-device storage engine that automatically synchronizes data  between sender and reciever through database in the cloud.
+The above process of designing datastore is related to cloud computing.
